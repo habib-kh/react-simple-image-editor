@@ -3,9 +3,9 @@ import { Stage, Layer, Image } from 'react-konva';
 import useImage from 'use-image';
 import SampleImage from './SampleImage';
 
-const ImageBoard = () => {
+const ImageBoard = ({ width, height }) => {
   return (
-    <Stage width={window.innerWidth / 1.5} height={window.innerHeight}>
+    <Stage width={width} height={width}>
       <Layer>
         <SampleImage />
       </Layer>

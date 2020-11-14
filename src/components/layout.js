@@ -85,7 +85,7 @@ export default function Layout({ title, desc, children, maxWidth, loading }) {
       </main>
       <footer className={classes.footer}>
         <Typography variant='h6' align='center' gutterBottom>
-          Rick & Morty
+          Simple Image Editor
         </Typography>
         <Typography
           variant='subtitle1'
