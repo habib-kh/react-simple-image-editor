@@ -50,7 +50,7 @@ export default function Layout({ title, desc, children, maxWidth, loading }) {
       <AppBar position='relative'>
         <Toolbar>
           <Typography variant='h6' color='inherit' noWrap>
-            Rick & Morty
+            Simple Image Editor
           </Typography>
         </Toolbar>
       </AppBar>
@@ -97,7 +97,7 @@ export default function Layout({ title, desc, children, maxWidth, loading }) {
         </Typography>
         <Typography variant='body2' color='textSecondary' align='center'>
           {'Copyright © '}
-          Rick & Morty {new Date().getFullYear()}
+          Simple Image Editor {new Date().getFullYear()}
           {'.'}
         </Typography>
       </footer>
